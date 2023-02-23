@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.text-brown {
+    color: #A16040;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.pad-h1 {
+    padding-top: 64px;
+    padding-bottom: 12px;
+}
+
+.pad-h3 {
+    padding-bottom: 18px;
+}
+
+.pad-h4 {
+    padding-bottom: 40px;
+}
+
+.section {
+    width: 70%;
+    text-align: justify;
+}
+
+.m-auto {
+    margin: 0 auto;
+}
+
+.m-top-100 {
+    margin-top: 100px;
+}
+
+.m-topbot-40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.m-h2 {
+    margin-top: 50px;
+    margin-bottom: 6px;
+}
+
+.m-bot-40 {
+    margin-bottom: 40px;
+}
+
+a {
+    color: #566EAD;
+    font-style: italic
+}
+
+a:hover {
+    background-color: rgba(0, 149, 248, 0.349);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* img {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+} */
